@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>card-design</title>
+</head>
+<body class="flex justify-center items-center w-scren h-screen bg-amber-100">
+    <main id="card" class="flex justify-center items-center flex-col max-w-sm bg-white rounded-lg">
+
+        <img src="./public/image-product-mobile.jpg" alt="" class="rounded-t-lg">
+
+        <div class="flex justify-center items-start flex-col pl-5 pt-3 pr-7">
+            <span class="tracking-[7px] text-gray-500 mt-4">PERFUME</span>
+            <h1 class="font-fraunces font-bold text-[2em] leading-8 mt-6">Gabrielle Essence Eau De Parfum</h1>
+            <p class="text-gray-600 mt-4">A floral, solar and voluptuous interpretation composed by oluver Polge, Perfumer-Creator for the House of CHANEL.</p>
+
+            <div id="priceTag" class="flex gap-7 justify-center items-center mb-4 mt-4">
+                <h2 class="text-3xl font-fraunces font-bold">$149.99</h2>
+                <p class="line-through text-l text-gray-600">$169.99</p>
+            </div>
+            <button id="addtocartButton" class="bg-[hsl(158,42%,40%)] flex items-center justify-center w-full mb-4 rounded-2xl pt-4 pb-4 space-x-5 text-2xl ">
+                <img src="./public/icon-cart.svg" alt="" class="w-6">
+                <p class="text-amber-50">Add to Cart</p>
+            </button>
+        </div>
+    </main>
+</body>
+</html>
